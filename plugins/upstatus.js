@@ -29,7 +29,7 @@ let handler = async (m, { conn, text }) => {
     if (m.quoted && text) _m = conn.forwardMessage('status@broadcast', await m.quoted.cMod('status@broadcast', text))
     m.reply((await _m).key.id)
 }
-handler.help = ['upsw [text] (Reply Media)', 'upsw <text>']
+handler.help = ['upsw ᵗᵉˣᵗᵒ, ᵉᵗᶦᑫᵘᵉᵗᵃ ᵉˡ ᵐᵉⁿˢᵃʲᵉ', 'upsw ᵗᵉˣᵗᵒ, ᵉᵗᶦᑫᵘᵉᵗᵃ ᵉˡ ᵐᵉⁿˢᵃʲᵉ']
 handler.tags = ['']
 
 handler.command = /^upstatus$/i
