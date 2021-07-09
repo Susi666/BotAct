@@ -1,18 +1,16 @@
 let handler = async m => m.reply(`
-  ^    ^    ^    ^    ^  
- /S\  /m\  /3\  /3\  /0\ 
-<___><___><___><___><___>
+  ^    ^    ^    ^      
+ /S\  /U\  /S\  /I\   
+<___><___><___><___>
 
-COMO CREAR ESTE BOT:
+Si quieres hablar con la dueña personalmente:
 
-https://youtu.be/chMc57gjmkI
-
-𝙈𝙮 𝘾𝙝𝙖𝙣𝙚𝙡:
-
-https://www.youtube.com/channel/UCHD4T8Pfcv5PFVzsAbfAPZA
+https://wa.me/50377111111
+https://wa.me/5037779043
+https://t.me/Susana661
                                         
 `.trim()) 
-handler.help = ['samu']
+handler.help = ['susi']
 handler.tags = ['info']
 handler.command = /^samu$/i
 
