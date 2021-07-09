@@ -5,7 +5,7 @@ let handler = async (m, { conn, text }) => {
   m.reply('_En proceso..._\n*Espere aproximadamente 1 minuto*')
   running(await q).then(vid => conn.sendFile(m.chat, vid, 'run.mp4', '*© Samu330*\nMade with FFmpeg', m))
 }
-handler.help = ['run']
+handler.help = ['run ᴺᵒ ᵘˢᵉˢ ᵉˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ']
 handler.tags = ['tools']
 handler.command = /^run$/i
 handler.limit = true
