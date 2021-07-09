@@ -7,7 +7,7 @@ let handler = async (m, { conn, text }) => {
   txt = text.replace('@' + who.split`@`[0], '').trimStart()
   return conn.sendContact(m.chat, who, txt || conn.getName(who), m)
 }
-handler.help = ['contacto'].map(v => v + ' @mencion <NombreDelContacto>')
+handler.help = ['contacto'].map(v => v + ' @ᵐᵉⁿᶜᶦᵒⁿ ᴺᵒᵐᵇʳᵉ ᴰᵉˡ ᶜᵒⁿᵗᵃᶜᵗᵒ')
 handler.tags = ['tools']
 
 handler.command = /^contacto$/
