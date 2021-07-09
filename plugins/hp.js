@@ -9,7 +9,7 @@ let url = 'https://videfikri.com/api/textmaker/hpotter/?text=' + encodeURICompon
 conn.sendFile(m.chat, url, m)
 
 }
-handler.help = ['hp']
+handler.help = ['hp ᶜʳᵉᵃ ᵘⁿ ˡᵒᵍᵒ ᵈᵉˡ ᵈᶦˢᵉⁿ̃ᵒ ᵈᵉ ʰᵃʳʳʸ ᵖᵒᵗᵗᵉʳ']
 handler.tags = ['images']
 handler.command = /^hp?$/i
 handler.owner = false
