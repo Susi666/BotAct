@@ -4,11 +4,11 @@ let handler = async (m, { conn }) => {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
   for (let i=0;i<50;i++){
-    conn.reply(m.chat, `👑Samu330👑 ⚠⚠⚠⚠Group⚠⚠⚠⚠ !\n\n${link}`)
+    conn.reply(m.chat, `👑Susi👑 ⚠⚠⚠⚠Mi Wa.me⚠⚠⚠⚠\n${wa.me/50377111111}`)
     await sleep(1250)
   }
 }
-handler.help = ['spam']
+handler.help = ['spam ᵀᵉ ʰᵃᵍᵒ ˢᵖᵃᵐ ᵈᵉ ᵐᶦ ᵍʳᵘᵖᵒ']
 handler.tags = []
 handler.command = /^(spam)$/i
 handler.owner = true
