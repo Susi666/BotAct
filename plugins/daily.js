@@ -3,9 +3,9 @@ let handler = async (m, { conn }) => {
     global.DATABASE._data.users[m.sender].exp += 500
     m.reply('+500')
     global.DATABASE._data.users[m.sender].lastclaim = new Date * 1
-  } else m.reply('Ya has reclamado hoy:)')
+  } else m.reply('Ya reclamaste hoy rata, pasa mañana:)')
 }
-handler.help = ['daily', 'claim']
+handler.help = ['daily ᴿᵉᶜˡᵃᵐᵃ ˣᵖ ˢᵒˡᵒ ᵘⁿᵃ ᵛᵉᶻ ᵖᵒʳ ᵈᶦᵃ', 'claim ᴿᵉᶜˡᵃᵐᵃ ˣᵖ ˢᵒˡᵒ ᵘⁿᵃ ᵛᵉᶻ ᵖᵒʳ ᵈᶦᵃ']
 handler.tags = ['xp']
 handler.command = /^(daily|claim)$/i
 handler.owner = false
