@@ -1,11 +1,12 @@
 let handler = async m => m.reply(`
- *GIT DE ESTE BOT*
-https://github.com/Samu330/esubot
+*SIGUEMEEEEEE*
+https://www.instagram.com/susana_monterroza_/
 
-MY GIT:
+MY TELEGRAM:
 
-https://github.com/Samu330
-😴                                       
+https://t.me/Susana661
+
+😴                                                            
 `.trim()) 
 handler.help = ['git']
 handler.tags = ['info']
