@@ -3,8 +3,10 @@ let handler = async m => m.reply(`
 https://www.instagram.com/susana_monterroza_/
 
 MY TELEGRAM:
-
 https://t.me/Susana661
+
+MY GIT:
+https://github.com/Susi666
 
 😴                                                            
 `.trim()) 
