@@ -6,7 +6,7 @@ let handler = async (m, { conn, args }) => {
       let img = await conn.downloadM(q)
       if (!img) throw `Y la imagen?!!`
      conn.updateProfilePicture (bot, img)
-    conn.reply(m.chat, 'Listo!!\n\n😊Gracias por la nueva foto pqra el Bot!', m)
+    conn.reply(m.chat, 'Listo!!\n\n😊Gracias por la nueva foto para el Bot!', m)
 	}
     }
 handler.help = ['perfilbot']
