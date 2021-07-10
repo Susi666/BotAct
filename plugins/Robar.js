@@ -16,7 +16,7 @@ let handler = async (m, { conn, text }) => {
     else throw 'Conversion failed'
   }
 }
-handler.help = ['robar <packname>|<author>']
+handler.help = ['robar ᴺᵒᵐᵇʳᵉ ᵈᵉˡ ᵖᵃᑫᵘᵉᵗᵉ ʸ ᵃᵘᵗᵒʳ']
 handler.tags = ['sticker']
 handler.command = /^robar$/i
 
